@@ -1,4 +1,4 @@
-FROM docker/compose:1.11.2
+FROM docker/compose:1.14.0
 
 RUN       apk update && \
           apk upgrade && \
